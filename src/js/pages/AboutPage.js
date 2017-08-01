@@ -15,6 +15,7 @@ class AboutPage extends React.PureComponent {
       <div>
         <LeftSidebar sections={this.state.sections} />
         <RightSidebar sections={this.state.sprites} />
+        <h4>About</h4>
 
       </div>
     );

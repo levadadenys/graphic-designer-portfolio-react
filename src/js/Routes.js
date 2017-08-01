@@ -9,7 +9,10 @@ import NotFoundPage from './pages/NotFoundPage';
 
 export default ([
   {
-    path: '/',
+    path: '/'
+  },
+  {
+    path: '/about',
     component: AboutPage,
   },
   {
