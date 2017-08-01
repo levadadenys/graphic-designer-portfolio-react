@@ -13,10 +13,12 @@ class AboutPage extends React.PureComponent {
   render () {
     return (
       <div>
-        <LeftSidebar sections={this.state.sections}/>
+        <LeftSidebar sections={this.state.sections} />
         <RightSidebar sections={this.state.sprites} />
-        
+
       </div>
     );
   }
 }
+
+export default AboutPage;

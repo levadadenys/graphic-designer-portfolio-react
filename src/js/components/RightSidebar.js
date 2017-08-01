@@ -3,14 +3,12 @@ import React from 'react';
 import Sprite from './sidebarComponents/Sprite';
 
 class RightSidebar extends React.PureComponent {
-  constructor (props) {
-    super(props);
-
-    this.state = {sprites: props.sprites};
-  }
+  static defaultProps = {
+    sprites: []
+  };
 
   render () {
-    const SPRITES = this.state.sprites.map(
+    const SPRITES = this.props.sprites.map(
       sprite => <Sprite key={sprite.title} icon={sprite.icon}
                         title={sprite.title} href={sprite.href} />);
     return (

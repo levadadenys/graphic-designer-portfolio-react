@@ -3,13 +3,12 @@ import React from 'react';
 import SidebarSection from './sidebarComponents/SidebarSection';
 
 class LeftSidebar extends React.PureComponent {
-  constructor (props) {
-    super(props);
-    this.state = {sections: props.sections};
-  }
+  static defaultProps = {
+    sections: []
+  };
 
   render () {
-    const SECTIONS = this.state.section.map(
+    const SECTIONS = this.props.sections.map(
       section => <SidebarSection key={section.title} title={section.title}
                                  href={section.href} />);
     return (
