@@ -6,7 +6,7 @@ body {
   height: 100vh; }
 
 .img-logo-ww {
-  margin-top: 25px;
+  margin-top: 50px;
   height: 40vh;
   background-image: url("Sk/Logo/SVG/logo_full_bg-black.svg");
   background-position: center;
@@ -21,5 +21,22 @@ body {
 .sidebar-nav {
   font-family: "Open Sans Regular";
   font-size: 32pt; }
+
+.img-about {
+  z-index: -100;
+  float: right;
+  background-image: url("Sk/assets/MockUp_bw.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.scr2 {
+  margin-top: 80px;
+  overflow: hidden; }
+
+.img-block {
+  height: 100vh;
+  width: 40vw;
+  position: absolute;
+  margin-left: 45vw; }
 
 /*# sourceMappingURL=main.css.map */
