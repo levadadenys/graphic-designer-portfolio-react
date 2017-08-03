@@ -12,14 +12,33 @@ body {
   background-position: center;
   background-size: cover; }
 
-.ham-btn {
-  width: 40px;
-  margin-bottom: 100px;
-  margin-top: 25px;
-  margin-right: 25px; }
+.main-nav {
+  width: 100vh;
+  background: #4c4c4c;
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);
+  display: flex;
+  justify-content: space-around;
+  white-space: nowrap;
+  flex-direction: row-reverse; }
 
-.sidebar-nav {
+.right-sidebar {
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh; }
+  .right-sidebar > :first-child {
+    flex-grow: 0.1; }
+
+.sidebar-nav-item {
   font-family: "Open Sans Regular";
-  font-size: 32pt; }
+  font-size: 1.4em;
+  margin: 0 0.5rem;
+  float: right; }
+
+.ham-btn {
+  width: 40px; }
 
 /*# sourceMappingURL=main.css.map */
