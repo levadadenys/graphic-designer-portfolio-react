@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,800,400");
+@import url(./styles/overrides.css);
 body {
   background: #1C1C1C;
   font-family: "Open Sans", X-LocaleSpecific, sans-serif; }
@@ -7,9 +8,9 @@ body {
   height: 100vh; }
 
 .logo-container {
-  margin-top: 25px;
   height: 40vh;
   width: 85vw;
+  margin-top: 25px;
   margin-left: 0; }
 
 .img-logo-ww {
@@ -19,29 +20,33 @@ body {
 
 .main-nav {
   width: 100vh;
-  transform-origin: left top;
-  transform: rotate(-90deg) translateX(-100%);
+  position: fixed;
   display: flex;
   justify-content: space-around;
-  white-space: nowrap;
   flex-direction: row-reverse;
-  position: fixed; }
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);
+  white-space: nowrap; }
 
 .right-sidebar {
-  text-align: right;
+  height: 100vh;
+  position: fixed;
+  right: 15px;
   display: flex;
   flex-wrap: wrap-reverse;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh; }
+  overflow: hidden; }
   .right-sidebar > :first-child {
+    flex-grow: 0.1; }
+  .right-sidebar > :last-child {
     flex-grow: 0.1; }
 
 .sidebar-nav-item {
+  margin: 0 1rem;
+  float: right;
   font-weight: 400;
-  font-size: 2em;
-  margin: 0 0.5rem;
-  float: right; }
+  font-size: 2em; }
   .sidebar-nav-item a {
     color: white;
     text-decoration: none; }
@@ -73,5 +78,9 @@ body {
   width: 40vw;
   position: absolute;
   margin-left: 45vw; }
+
+@media screen and (max-height: 800px) {
+  .main-nav {
+    justify-content: flex-start; } }
 
 /*# sourceMappingURL=main.css.map */
