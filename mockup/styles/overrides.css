@@ -10,13 +10,13 @@ li {
   margin-bottom: 50px; }
 
 p {
-  font-family: "Open Sans Light";
+  font-weight: 300;
   font-size: 20px;
   color: #F5F5F5;
   margin-top: 5vh; }
 
 h2 {
-  font-family: "Open Sans Extrabold";
+  font-weight: 800;
   font-size: 36px;
   color: #F5F5F5;
   margin-top: 5vh; }
@@ -25,8 +25,8 @@ h2 {
   color: #FF0000; }
 
 h1 {
-  font-family: "Open Sans Extrabold";
-  font-size: 120px; }
+  font-size: 120px;
+  font-weight: 800; }
 
 .branding {
   color: #FF0000; }
