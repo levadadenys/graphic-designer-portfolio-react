@@ -1,26 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,800,400");
 body {
-  background: #1C1C1C; }
+  background: #1C1C1C;
+  font-family: "Open Sans", X-LocaleSpecific, sans-serif; }
 
 .screen1 {
   height: 100vh; }
 
-.img-logo-ww {
+.logo-container {
   margin-top: 25px;
   height: 40vh;
+  width: 85vw;
+  margin-left: 0; }
+
+.img-logo-ww {
   background-image: url("Sk/Logo/SVG/logo_full_bg-black.svg");
   background-position: center;
   background-size: cover; }
 
 .main-nav {
   width: 100vh;
-  background: #4c4c4c;
   transform-origin: left top;
   transform: rotate(-90deg) translateX(-100%);
   display: flex;
   justify-content: space-around;
   white-space: nowrap;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  position: fixed; }
 
 .right-sidebar {
   text-align: right;
@@ -35,10 +40,21 @@ body {
     flex-grow: 0.1; }
 
 .sidebar-nav-item {
-  font-family: "Open Sans Regular";
-  font-size: 1.4em;
+  font-weight: 400;
+  font-size: 2em;
   margin: 0 0.5rem;
   float: right; }
+  .sidebar-nav-item a {
+    color: white;
+    text-decoration: none; }
+  .sidebar-nav-item a:hover {
+    color: #FF0000; }
+  .sidebar-nav-item a:active {
+    font-weight: 800; }
+
+.active a {
+  color: #FF0000;
+  font-weight: 800; }
 
 .ham-btn {
   width: 40px; }
