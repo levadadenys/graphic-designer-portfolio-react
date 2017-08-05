@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,800,400')
 
+::-webkit-scrollbar
+  display: none
+
 body
   background: #1C1C1C
   font-family: "Open Sans", X-LocaleSpecific, sans-serif
@@ -9,8 +12,8 @@ body
 
 .logo-container
   margin-top: 25px
-  height: 40vh
-  width: 85vw
+  height: 41vh
+  width: 80vw
   margin-left: 0
 
 .img-logo-ww
@@ -58,16 +61,36 @@ body
     color: #FF0000
     font-weight: 800
 
+.inactive
+  a
+    color: #808080
+.inactive:hover
+  a
+    color: #808080
+
+
 .ham-btn
   width: 40px
 
 .img-about
-  z-index: -100
   float: right
   background:
     image: url("Sk/assets/MockUp_bw.jpg")
     position: center
     size: cover
+  transition: background 500ms
+  transform: translateZ()
+
+.img-about:hover
+  background:
+    image: url("Sk/assets/MockUp_color.jpg")
+    position: center
+    size: cover
+  transition: background 500ms
+  transform: translateZ()
+
+.zindex
+  z-index: 10000
 
 .scr2
   margin-top: 80px
@@ -78,3 +101,10 @@ body
   width: 40vw
   position: absolute
   margin-left: 45vw
+
+@media screen and (max-width: 992px)
+  .logo-container
+    height: 11vh
+    width: 70vw
+    margin-top: 10px
+
