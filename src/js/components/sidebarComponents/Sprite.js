@@ -1,15 +1,11 @@
 import React from 'react';
 
 class Sprite extends React.PureComponent {
-  constructor (props) {
-    super(props);
-
-    this.state = {icon: props.icon, title: props.title, href: props.href};
-  }
-
   render () {
     return (
-      <div>
+      <div className="sidebar-nav-item">
+        <a href={this.props.href} target={this.props.target} className={this.props.icon}
+           title={this.props.title} />
 
       </div>
     );

@@ -9,12 +9,11 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import routes from './Routes';
 
-import logo from './../logo.svg';
-
 import LeftSidebar from './components/LeftSidebar';
 import RightSidebar from './components/RightSidebar';
 
 import LeftSidebarStore from './stores/LeftSidebarStore';
+import RightSidebarStore from './stores/RightSidebarStore';
 
 let browserHistory = createBrowserHistory();
 
@@ -39,7 +38,7 @@ class App extends Component {
               }
 
             </Switch>
-            <RightSidebar />
+            <RightSidebar sprites={RightSidebarStore} />
           </div>
         </div>
       </Router>

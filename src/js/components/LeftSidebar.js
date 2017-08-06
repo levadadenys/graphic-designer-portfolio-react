@@ -2,7 +2,7 @@ import React from 'react';
 
 import SidebarSection from './sidebarComponents/SidebarSection';
 
-class LeftSidebar extends React.PureComponent {
+class LeftSidebar extends React.Component {
   static defaultProps = {
     sections: []
   };

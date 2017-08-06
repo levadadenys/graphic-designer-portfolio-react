@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default () => (
-  <div>
+  <div className="col-md-10 col-xs-10">
     <Link to="/about">
-      404. Not found.
+      <p>404. Not found.</p>
     </Link>
   </div>
 );

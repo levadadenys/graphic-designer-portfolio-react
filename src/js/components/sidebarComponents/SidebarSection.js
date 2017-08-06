@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-class SidebarSection extends React.PureComponent {
+class SidebarSection extends React.Component {
   constructor (props) {
     super(props);
 
