@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,800,400");
+@import url(./styles/overrides.css);
+body {
+  background: #1C1C1C;
+  font-family: "Open Sans", X-LocaleSpecific, sans-serif; }
+
+.screen1 {
+  height: 100vh; }
+
+.logo-container {
+  height: 40vh;
+  width: 85vw;
+  margin-top: 25px;
+  margin-left: 0; }
+
+.img-logo-ww {
+  background-image: url("./imgs/logo_full_bg-black.svg");
+  background-position: center;
+  background-size: cover; }
+
+.main-nav {
+  width: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);
+  white-space: nowrap; }
+
+.right-sidebar {
+  height: 100vh;
+  position: fixed;
+  right: 15px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden; }
+  .right-sidebar > :first-child {
+    flex-grow: 0.1; }
+  .right-sidebar > :last-child {
+    flex-grow: 0.1; }
+
+.sidebar-nav-item {
+  margin: 0 1rem;
+  float: right;
+  font-weight: 400;
+  font-size: 2em; }
+  .sidebar-nav-item a {
+    color: white;
+    text-decoration: none; }
+  .sidebar-nav-item a:hover {
+    color: #FF0000; }
+  .sidebar-nav-item a:active {
+    font-weight: 800; }
+  .sidebar-nav-item .active span {
+    color: #FF0000;
+    font-weight: 800; }
+
+.ham-btn {
+  width: 40px; }
+
+.img-about {
+  z-index: -100;
+  float: right;
+  background-image: url("./imgs/MockUp_bw.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.scr2 {
+  margin-top: 80px;
+  overflow: hidden; }
+
+.img-block {
+  height: 100vh;
+  width: 40vw;
+  position: absolute;
+  margin-left: 45vw; }
+
+@media screen and (max-height: 800px) {
+  .main-nav {
+    justify-content: flex-start; } }
+
+/*# sourceMappingURL=main.css.map */

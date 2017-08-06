@@ -12,8 +12,10 @@ class LeftSidebar extends React.PureComponent {
       section => <SidebarSection key={section.title} title={section.title}
                                  href={section.href} />);
     return (
-      <div>
-        {SECTIONS}
+      <div className="col-md-1 col-xs-1">
+        <div className="main-nav">
+          {SECTIONS}
+        </div>
       </div>
     );
   }
