@@ -12,7 +12,7 @@ class LeftSidebar extends React.Component {
       section => <SidebarSection key={section.title} title={section.title}
                                  href={section.href} />);
     return (
-      <div className="col-md-1 col-xs-1">
+      <div className="col-md-1 hidden-xs hidden-sm">
         <div className="main-nav">
           {SECTIONS}
         </div>
