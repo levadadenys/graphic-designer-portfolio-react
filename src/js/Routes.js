@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AboutPage from './pages/AboutPage';
 import SkillsetPage from './pages/SkillsetPage';
 import PortfolioPage from './pages/PortfolioPage';
