@@ -1,8 +1,7 @@
 import React from 'react';
 
+import HamburgerButton from './sidebarComponents/HamburgerButton';
 import Sprite from './sidebarComponents/Sprite';
-
-import Hamburger from './../../imgs/Menu_btn_white.svg';
 
 class RightSidebar extends React.Component {
   static defaultProps = {
@@ -15,13 +14,10 @@ class RightSidebar extends React.Component {
                         title={sprite.title} href={sprite.href}
                         target={sprite.target} />);
     return (
-      <div className="col-md-1 col-xs-1">
+      <div className="col-md-1 hidden-sm hidden-xs">
         <div className="right-sidebar">
           <div className="sidebar-nav-item">
-            <a target="_blank" href="kek4" title="Menu">
-              <img src={Hamburger} className="ham-btn"
-                   alt="logo" />
-            </a>
+            <HamburgerButton />
           </div>
           {SPRITES}
         </div>
