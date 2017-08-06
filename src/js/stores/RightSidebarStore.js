@@ -37,9 +37,9 @@ export default [
   },
   {
     title: 'Telegram',
-    href: 'tg://resolve?domain=<wladekwerkstatt>',
+    href: 'tg://resolve?domain=wladekwerkstatt',
     icon: 'socicon-telegram socicons',
-    target: '_blank'
+    target: '_self'
   },
   {
     title: 'LinkedIn',

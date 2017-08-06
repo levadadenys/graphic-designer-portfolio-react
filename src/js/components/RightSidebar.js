@@ -2,7 +2,7 @@ import React from 'react';
 
 import Sprite from './sidebarComponents/Sprite';
 
-import Hamburger from './../../imgs/Menu_btn_white.svg'
+import Hamburger from './../../imgs/Menu_btn_white.svg';
 
 class RightSidebar extends React.Component {
   static defaultProps = {
@@ -12,7 +12,8 @@ class RightSidebar extends React.Component {
   render () {
     const SPRITES = this.props.sprites.map(
       sprite => <Sprite key={sprite.title} icon={sprite.icon}
-                        title={sprite.title} href={sprite.href} />);
+                        title={sprite.title} href={sprite.href}
+                        target={sprite.target} />);
     return (
       <div className="col-md-1 col-xs-1">
         <div className="right-sidebar">
