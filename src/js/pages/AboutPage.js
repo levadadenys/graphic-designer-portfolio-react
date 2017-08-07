@@ -1,5 +1,7 @@
 import React from 'react';
-import HamburgerButton from './../components/sidebarComponents/HamburgerButton'
+
+import HamburgerButton from './../components/sidebarComponents/HamburgerButton';
+
 class AboutPage extends React.PureComponent {
   constructor (props) {
     super(props);
@@ -15,29 +17,38 @@ class AboutPage extends React.PureComponent {
             <div className="logo-container img-logo-ww" />
           </div>
           <div className="col-xs-4 col-sm-4 hidden-lg hidden-md">
-            <HamburgerButton/>
+            <HamburgerButton />
           </div>
         </div>
         <div className="row">
-          <div className="col-md-2 "/>
+          <div className="col-md-2 " />
           <div className="col-md-4">
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque <mark>laudantium</mark>, totam
+              accusantium doloremque
+              <mark>laudantium</mark>
+              , totam
               rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
               architecto beatae vitae dicta sunt
               explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-              aut odit aut fugit, <mark>sed quia consequuntur</mark>
-              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+              aut odit aut fugit,
+              <mark>sed quia consequuntur</mark>
+              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+              porro
               quisquam est, qui dolorem ipsum quia
               dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-              eius modi tempora incidunt ut <mark>labore</mark> et
-              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+              eius modi tempora incidunt ut
+              <mark>labore</mark>
+              et
+              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+              veniam,
               quis nostrum exercitationem ullam
-              corporis suscipit laboriosam, nisi </p>
+              corporis suscipit laboriosam, nisi
+            </p>
           </div>
           <div className="col-md-2">
             <h2>Абз. 1.10.33
-              <span className="red-marker">"de Finibus Bonorum et Malorum"</span>,
+              <span
+                className="red-marker">"de Finibus Bonorum et Malorum"</span>,
               написанный Цицероном в 45 году н.э.</h2>
           </div>
           <div className="col-md-4">
@@ -45,13 +56,15 @@ class AboutPage extends React.PureComponent {
               blanditiis praesentium voluptatum deleniti
               atque corrupti quos dolores et quas molestias excepturi sint
               occaecati cupiditate non provident, similique
-              sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+              sunt in culpa qui officia deserunt mollitia animi, id est laborum
+              et
               dolorum fuga. Et harum quidem rerum
               facilis est et expedita distinctio. Nam libero tempore, cum soluta
               nobis est eligendi optio cumque nihil
               impedit quo minus id quod maxime placeat facere possimus, omnis
               voluptas assumenda est, omnis dolor
-              repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+              repellendus. Temporibus autem quibusdam et aut officiis debitis
+              aut
               rerum necessitatibus saepe eveniet ut et
               voluptates repudiandae sint et molestiae non recusandae. Itaque
               earum rerum hic tenetur a sapiente delectus,
