@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,800,400");
 @import url(./styles/overrides.css);
+@import url(./styles/sidebars.css);
+@import url(./styles/mediaQueries.css);
 ::-webkit-scrollbar {
   display: none; }
 
@@ -26,55 +28,6 @@ mark {
   background-position: center;
   background-size: cover; }
 
-.main-nav {
-  width: 100vh;
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row-reverse;
-  transform-origin: left top;
-  transform: rotate(-90deg) translateX(-100%);
-  white-space: nowrap; }
-
-.right-sidebar {
-  height: 100vh;
-  position: fixed;
-  right: 15px;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  flex-direction: column;
-  justify-content: space-around;
-  overflow: hidden; }
-  .right-sidebar > :first-child {
-    flex-grow: 0.1; }
-  .right-sidebar > :last-child {
-    flex-grow: 0.1; }
-
-.sidebar-nav-item {
-  margin: 0 1rem;
-  float: right;
-  font-weight: 400;
-  font-size: 2em; }
-  .sidebar-nav-item a {
-    color: white;
-    text-decoration: none; }
-  .sidebar-nav-item a:hover {
-    color: #FF0000; }
-  .sidebar-nav-item a:active {
-    font-weight: 800; }
-  .sidebar-nav-item .active span {
-    color: #FF0000;
-    font-weight: 800; }
-
-.inactive a {
-  color: #808080; }
-
-.inactive:hover a {
-  color: #808080; }
-
-.ham-btn {
-  width: 40px; }
-
 .img-about {
   float: right;
   background-image: url("./imgs/MockUp_bw.jpg");
@@ -100,19 +53,5 @@ mark {
   width: 40vw;
   position: absolute;
   margin-left: 45vw; }
-
-@media screen and (max-height: 800px) {
-  .main-nav {
-    justify-content: flex-start; } }
-@media screen and (max-width: 992px) {
-  .logo-container {
-    height: 8vh;
-    width: 55vw;
-    margin-top: 3vh; }
-
-  .ham-btn {
-    margin: 4.5vh 5vw 5vh 5vw;
-    width: 9vw;
-    float: right; } }
 
 /*# sourceMappingURL=main.css.map */

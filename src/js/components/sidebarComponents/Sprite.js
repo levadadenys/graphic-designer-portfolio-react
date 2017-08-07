@@ -1,6 +1,13 @@
 import React from 'react';
 
 class Sprite extends React.PureComponent {
+  static defaultProps = {
+    herf: '#',
+    target: '_blank',
+    title: 'Contact',
+    icon: 'socicon-mail socicons '
+  };
+
   render () {
     return (
       <div className="sidebar-nav-item">
