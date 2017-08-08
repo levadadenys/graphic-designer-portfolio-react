@@ -29,18 +29,18 @@ export default [
     icon: 'socicon-github socicons',
     target: '_blank'
   },
-  {
-    title: 'Skype',
-    href: 'skype:live:wlodzislaw.lw',
-    icon: 'socicon-skype socicons',
-    target: '_self'
-  },
-  {
-    title: 'Telegram',
-    href: 'tg://resolve?domain=wladekwerkstatt',
-    icon: 'socicon-telegram socicons',
-    target: '_self'
-  },
+  // {
+  //   title: 'Skype',
+  //   href: 'skype:live:wlodzislaw.lw',
+  //   icon: 'socicon-skype socicons',
+  //   target: '_self'
+  // },
+  // {
+  //   title: 'Telegram',
+  //   href: 'tg://resolve?domain=wladekwerkstatt',
+  //   icon: 'socicon-telegram socicons',
+  //   target: '_self'
+  // },
   {
     title: 'LinkedIn',
     href: 'https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2-%D0%BB%D1%8F%D1%85-3a2981112/',
