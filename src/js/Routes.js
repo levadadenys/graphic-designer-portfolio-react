@@ -26,7 +26,7 @@ export default ([
     component: OpenSourcePage,
   },
   {
-    path: '/contacts',
+    path: '/contact-me',
     component: ContactsPage,
   },
   {

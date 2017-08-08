@@ -16,7 +16,7 @@ export default [
     href: '/open-source'
   },
   {
-    title: 'CONTACTS',
-    href: '/contacts'
+    title: 'CONTACT ME',
+    href: '/contact-me'
   }
 ];
