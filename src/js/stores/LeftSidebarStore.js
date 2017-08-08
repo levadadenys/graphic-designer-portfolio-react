@@ -13,7 +13,8 @@ export default [
   },
   {
     title: 'OPEN SOURCE',
-    href: '/open-source'
+    href: '/open-source',
+    disabled: true
   },
   {
     title: 'CONTACT ME',

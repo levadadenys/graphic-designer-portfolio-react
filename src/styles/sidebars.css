@@ -40,12 +40,9 @@
   .sidebar-nav-item .active span {
     color: #FF0000;
     font-weight: 800; }
-
-.inactive a {
-  color: #808080; }
-
-.inactive:hover a {
-  color: #808080; }
+  .sidebar-nav-item .disabled-link {
+    color: #808080;
+    pointer-events: none; }
 
 .ham-btn {
   width: 40px; }
