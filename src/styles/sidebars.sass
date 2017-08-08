@@ -1,3 +1,21 @@
+@keyframes slideInFromLeft
+  0%
+    transform: rotate(-90deg) translate(-100%, -100%)
+    opacity: 0
+
+  100%
+    transform: rotate(-90deg) translate(-100%, 0)
+    opacity: 1
+
+@keyframes slideInFromRight
+  0%
+    transform: translate(100%, 0)
+    opacity: 0
+
+  100%
+    transform: translate(0, 0)
+    opacity: 1
+
 .main-nav
   width: 100vh
   position: fixed
@@ -10,6 +28,8 @@
   transform: rotate(-90deg) translateX(-100%)
 
   white-space: nowrap
+
+  animation: 750ms ease-out 0s 1 slideInFromLeft
 
   @media (max-height: 800px)
     justify-content: flex-start
@@ -24,6 +44,8 @@
   flex-direction: column
   justify-content: space-around
   overflow: hidden
+
+  animation: 750ms ease-out 0s 1 slideInFromRight
 
   > :first-child
     flex-grow: 0.1
@@ -50,13 +72,9 @@
       color: #FF0000
       font-weight: 800
 
-.inactive
-  a
+  .disabled-link
     color: #808080
-
-.inactive:hover
-  a
-    color: #808080
+    pointer-events: none
 
 .ham-btn
   width: 40px

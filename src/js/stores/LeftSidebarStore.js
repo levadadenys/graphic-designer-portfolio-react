@@ -13,10 +13,11 @@ export default [
   },
   {
     title: 'OPEN SOURCE',
-    href: '/open-source'
+    href: '/open-source',
+    disabled: true
   },
   {
-    title: 'CONTACTS',
-    href: '/contacts'
+    title: 'CONTACT ME',
+    href: '/contact-me'
   }
 ];
