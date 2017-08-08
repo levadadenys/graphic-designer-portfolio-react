@@ -1,0 +1,40 @@
+.bg-menu {
+  background-color: #180026; }
+
+.mahref {
+  color: #F5F5F5;
+  font-weight: 800;
+  line-height: 1;
+  clear: both;
+  margin-right: 10vw; }
+
+.ab-btn {
+  float: right;
+  color: #FF0000;
+  font-size: 12vw; }
+
+.sk-btn {
+  float: right;
+  font-size: 6vw; }
+
+.portf-btn {
+  float: right;
+  font-size: 8vw; }
+
+.bl-btn {
+  float: right;
+  font-size: 10vw; }
+
+.opsrc-btn {
+  float: right;
+  font-size: 10vw; }
+
+.cont-btn {
+  float: right;
+  font-size: 6vw; }
+
+@media(max-width: 992px) {
+  .mahref {
+    line-height: 3; } }
+
+/*# sourceMappingURL=menu.css.map */
