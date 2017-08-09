@@ -1,40 +1,20 @@
-.bg-menu {
+.menu-modal {
   background-color: #180026; }
-
-.mahref {
-  color: #F5F5F5;
-  font-weight: 800;
-  line-height: 1;
-  clear: both;
-  margin-right: 10vw; }
-
-.ab-btn {
-  float: right;
-  color: #FF0000;
-  font-size: 12vw; }
-
-.sk-btn {
-  float: right;
-  font-size: 6vw; }
-
-.portf-btn {
-  float: right;
-  font-size: 8vw; }
-
-.bl-btn {
-  float: right;
-  font-size: 10vw; }
-
-.opsrc-btn {
-  float: right;
-  font-size: 10vw; }
-
-.cont-btn {
-  float: right;
-  font-size: 6vw; }
-
-@media(max-width: 992px) {
-  .mahref {
-    line-height: 3; } }
+  .menu-modal .menu-modal-nav-item {
+    clear: both;
+    float: right;
+    margin-right: 10vw;
+    color: #F5F5F5;
+    font-weight: 800;
+    font-size: 6vh;
+    line-height: 2; }
+    .menu-modal .menu-modal-nav-item .active {
+      color: #FF0000;
+      font-size: 10vh; }
+    .menu-modal .menu-modal-nav-item .bigger {
+      font-size: 8vh; }
+@media(max-width: 425px) {
+  .menu-modal .menu-modal-nav-item {
+    float: none; } }
 
 /*# sourceMappingURL=menu.css.map */
