@@ -9,7 +9,7 @@
     width: 55vw;
     margin-top: 3vh; } }
 .img-logo-ww {
-  background-image: url("./../../imgs/logo_full_bg-black.svg");
+  background-image: url("./../../imgs/logo_full_bg-violet.svg");
   background-position: center;
   background-size: cover; }
 
@@ -38,5 +38,11 @@
   width: 40vw;
   position: absolute;
   margin-left: 45vw; }
+
+.branding {
+  color: #FF0000; }
+
+.red-marker {
+  color: #FF0000; }
 
 /*# sourceMappingURL=AboutPage.css.map */

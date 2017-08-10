@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,800,400");
 @import url(./styles/overrides.css);
 @import url(./styles/sidebars.css);
+@import url(./styles/components/menu.css);
 @import url(./styles/pages/AboutPage.css);
 ::-webkit-scrollbar {
   display: none; }
 
 body {
-  background: #1C1C1C;
+  background: #180026;
   font-family: "Open Sans", X-LocaleSpecific, sans-serif; }
 
 mark {
