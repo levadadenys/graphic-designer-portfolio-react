@@ -1,21 +1,22 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+
+import NavigationLink from './../NavigationLink';
 
 class SidebarSection extends React.Component {
   static defaultProps = {
-    href: '#',
-    title: 'Navigation',
-    disabled: false
+    section: {
+      disabled: false,
+      href: '#',
+      title: 'Navigation'
+    }
   };
 
   render () {
     return (
       <span className="sidebar-nav-item">
-        <NavLink activeClassName="active"
-                 className={this.props.disabled ? 'disabled-link' : ''}
-                 to={this.props.href}>
+        <NavigationLink {...this.props.section}>
           <span>{this.props.title}</span>
-        </NavLink>
+        </NavigationLink>
       </span>
     );
   }
