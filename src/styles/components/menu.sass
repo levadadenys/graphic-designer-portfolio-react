@@ -1,0 +1,41 @@
+#menu-modal
+  background-color: rgba(24, 0, 38, 0.7)
+
+  .menu-modal-navigation
+
+    .menu-modal-nav-item
+      clear: both
+      float: right
+      margin-right: 10vw
+
+      color: #F5F5F5
+      font-weight: 800
+      font-size: 6vh
+      line-height: 2
+      text-decoration: none
+
+      a
+        color: white
+        text-decoration: none
+      a:hover
+        color: #FF0000
+      a:active
+        font-weight: 800
+
+      .active
+        span
+          color: #FF0000
+          font-size: 10vh
+
+      .disabled-link
+        color: #808080
+        pointer-events: none
+
+    > :nth-child(3)
+      font-size: 8vh
+    > :nth-child(4)
+      font-size: 8vh
+
+  @media(max-width: 425px)
+    .menu-modal-nav-item
+      float: none

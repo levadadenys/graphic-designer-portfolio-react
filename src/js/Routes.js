@@ -1,7 +1,6 @@
 import AboutPage from './pages/AboutPage';
 import SkillsetPage from './pages/SkillsetPage';
 import PortfolioPage from './pages/PortfolioPage';
-import OpenSourcePage from './pages/OpenSourcePage';
 import ContactsPage from './pages/ContactsPage';
 import NotFoundPage from './pages/NotFoundPage';
 
@@ -22,11 +21,7 @@ export default ([
     component: PortfolioPage,
   },
   {
-    path: '/open-source',
-    component: OpenSourcePage,
-  },
-  {
-    path: '/contacts',
+    path: '/contact-me',
     component: ContactsPage,
   },
   {

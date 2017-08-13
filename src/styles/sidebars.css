@@ -1,3 +1,17 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: rotate(-90deg) translate(-100%, -100%);
+    opacity: 0; }
+  100% {
+    transform: rotate(-90deg) translate(-100%, 0);
+    opacity: 1; } }
+@keyframes slideInFromRight {
+  0% {
+    transform: translate(100%, 0);
+    opacity: 0; }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1; } }
 .main-nav {
   width: 100vh;
   position: fixed;
@@ -6,7 +20,8 @@
   flex-direction: row-reverse;
   transform-origin: left top;
   transform: rotate(-90deg) translateX(-100%);
-  white-space: nowrap; }
+  white-space: nowrap;
+  animation: 750ms ease-out 0s 1 slideInFromLeft; }
   @media (max-height: 800px) {
     .main-nav {
       justify-content: flex-start; } }
@@ -19,7 +34,8 @@
   flex-wrap: wrap-reverse;
   flex-direction: column;
   justify-content: space-around;
-  overflow: hidden; }
+  overflow: hidden;
+  animation: 750ms ease-out 0s 1 slideInFromRight; }
   .right-sidebar > :first-child {
     flex-grow: 0.1; }
   .right-sidebar > :last-child {
@@ -40,15 +56,16 @@
   .sidebar-nav-item .active span {
     color: #FF0000;
     font-weight: 800; }
-
-.inactive a {
-  color: #808080; }
-
-.inactive:hover a {
-  color: #808080; }
+  .sidebar-nav-item .disabled-link {
+    color: #808080;
+    pointer-events: none; }
 
 .ham-btn {
-  width: 40px; }
+  background: none;
+  border: none;
+  outline: none; }
+  .ham-btn img {
+    width: 40px; }
   @media (max-width: 992px) {
     .ham-btn {
       margin: 4.5vh 5vw 5vh 5vw;

@@ -75,7 +75,7 @@ class AboutPage extends React.PureComponent {
         <div className="row scr2">
           <div className="col-md-12">
             <div className="row">
-              <div className="col-md-9 zindex">
+              <div className="col-md-9 z-index">
                 <h1 className="branding">Branding |not|<br />branded brands...
                 </h1>
                 <h2>Branded brands too...</h2>
