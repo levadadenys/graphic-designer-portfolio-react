@@ -1,8 +1,7 @@
 import React from 'react';
-
 import NavigationLink from './../NavigationLink';
 
-class SidebarSection extends React.Component {
+class MenuModalItem extends React.Component {
   static defaultProps = {
     section: {
       disabled: false,
@@ -13,12 +12,12 @@ class SidebarSection extends React.Component {
 
   render () {
     return (
-      <span className="sidebar-nav-item">
+      <div className="menu-modal-nav-item">
         <NavigationLink {...this.props.section} />
-        </span>
+      </div>
     );
   }
 
 }
 
-export default SidebarSection;
+export default MenuModalItem;

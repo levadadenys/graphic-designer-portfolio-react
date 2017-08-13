@@ -61,7 +61,11 @@
     pointer-events: none; }
 
 .ham-btn {
-  width: 40px; }
+  background: none;
+  border: none;
+  outline: none; }
+  .ham-btn img {
+    width: 40px; }
   @media (max-width: 992px) {
     .ham-btn {
       margin: 4.5vh 5vw 5vh 5vw;

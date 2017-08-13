@@ -11,8 +11,9 @@ import routes from './Routes';
 
 import LeftSidebar from './components/LeftSidebar';
 import RightSidebar from './components/RightSidebar';
+import MenuModal from './components/menuModal/MenuModal';
 
-import LeftSidebarStore from './stores/LeftSidebarStore';
+import NavigationStore from './stores/NavigationStore';
 import RightSidebarStore from './stores/RightSidebarStore';
 
 let browserHistory = createBrowserHistory();
@@ -23,7 +24,7 @@ class App extends Component {
       <Router history={browserHistory}>
         <div className="container-fluid screen1">
           <div className="row">
-            <LeftSidebar sections={LeftSidebarStore} />
+            <LeftSidebar sections={NavigationStore} />
 
             <Switch>
               {
@@ -40,6 +41,7 @@ class App extends Component {
             </Switch>
             <RightSidebar sprites={RightSidebarStore} />
           </div>
+          <MenuModal sections={NavigationStore} />
         </div>
       </Router>
     );

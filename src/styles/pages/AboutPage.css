@@ -26,8 +26,8 @@
   background-size: cover;
   transition: background 500ms; }
 
-.zindex {
-  z-index: 10000; }
+.z-index {
+  z-index: 1; }
 
 .scr2 {
   margin-top: 80px;
