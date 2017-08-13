@@ -11,6 +11,7 @@ import routes from './Routes';
 
 import LeftSidebar from './components/LeftSidebar';
 import RightSidebar from './components/RightSidebar';
+import MenuModal from './components/menuModal/MenuModal';
 
 import NavigationStore from './stores/NavigationStore';
 import RightSidebarStore from './stores/RightSidebarStore';
@@ -40,6 +41,7 @@ class App extends Component {
             </Switch>
             <RightSidebar sprites={RightSidebarStore} />
           </div>
+          <MenuModal sections={NavigationStore} />
         </div>
       </Router>
     );
