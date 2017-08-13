@@ -23,32 +23,28 @@ class AboutPage extends React.PureComponent {
         <div className="row">
           <div className="col-md-2 " />
           <div className="col-md-4">
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
-              <mark>laudantium</mark>
-              , totam
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-              architecto beatae vitae dicta sunt
-              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-              aut odit aut fugit,
-              <mark>sed quia consequuntur</mark>
-              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-              porro
-              quisquam est, qui dolorem ipsum quia
-              dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-              eius modi tempora incidunt ut
-              <mark>labore</mark>
-              et
-              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam,
-              quis nostrum exercitationem ullam
-              corporis suscipit laboriosam, nisi
+            <p>"Władek Werkstatt" ( π ) - is a personal
+              <mark>digital design brand</mark>
+              , founded
+              in 2017 by Liakh Vladislav.
+            </p>
+            <p>My main goal - avant-garde design practices implementation for
+              modern visual
+              communication industry. I consider my self as
+              a &nbsp;
+              <mark>Swiss</mark>
+              &nbsp;,&nbsp;
+              <mark>Bauhaus</mark>
+              &nbsp;and
+              <mark>Constructivism</mark>
+              evangelist, that is commonly exposed on my non-commercial works.
+              But I don't usually confine myself to one style.
+              I prefer mixing, modernizing and injecting one to another. So
+              it'll be a good deal for you to work with me.
             </p>
           </div>
           <div className="col-md-2">
-            <h2>Абз. 1.10.33
-              <span
-                className="red-marker">"de Finibus Bonorum et Malorum"</span>,
+            <h2>Абз. 1.10.33 <span className="red-marker">"de Finibus Bonorum et Malorum"</span>,
               написанный Цицероном в 45 году н.э.</h2>
           </div>
           <div className="col-md-4">
@@ -76,7 +72,7 @@ class AboutPage extends React.PureComponent {
           <div className="col-md-12">
             <div className="row">
               <div className="col-md-9 z-index">
-                <h1 className="branding">Branding |not|<br />branded brands...
+                <h1 className="branding">Branding |not|*<br />branded brands...
                 </h1>
                 <h2>Branded brands too...</h2>
                 <div className="row">
@@ -115,6 +111,44 @@ class AboutPage extends React.PureComponent {
               </div>
               <div className="col-md-3 img-block img-about" />
             </div>
+            <div className="row">
+              <div className="col-md-12">
+                <p>References
+                </p>
+                <ul>
+                  <li>1. Korolkova A., <i>Zhivaya tipografika</i> [Live
+                    typography]. Index Market Publ., 2011, ISBN
+                    978-5-9901107-5-5
+                  </li>
+                  <li>2. Bychkov V. V., <i>Estetika</i> [Aesthetics]. Gardariki
+                    Publ., 2004,
+                  </li>
+                  <li>3. Aaron Walter <i>Emotional Web-design</i> [Emocionalniy
+                    Web-dizayn]. A Book Apart., ISBN
+                    978-5-91657-386-2
+                  </li>
+                  <li>4. Ethan Marcott <i>Responsive Web-design</i> [Otzivchiviy
+                    web-dizayn]. A Book Apart., 2012, ISBN
+                    978-5-91657-385-5
+                  </li>
+                  <li>5. Golubeva O. L. <i>Osnovyi kompozitsii. Uchebnoe
+                    posobie</i> [Basics of composition. Tutorial].
+                    Fine Arts Publ., 2001
+                  </li>
+                  <li>6. Jeremy Keith & Rachel Andrew <i>HTML5 FOR WEB
+                    DESIGNERS</i> [HTML5 Dlya WEB dizaynerov]. A Book
+                    Apart., ISBN
+                    978-5-91657-596-5
+                  </li>
+                  <li>7. Dan Cederholm <i>CSS3 FOR WEB DESIGNERS</i> [CSS3 Dlya
+                    WEB dizaynerov]. A Book
+                    Apart., ISBN
+                    978-5-91657-595-8
+                  </li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
