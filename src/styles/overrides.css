@@ -7,7 +7,8 @@
 
 li {
   list-style-type: none;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  color: #F5F5F5; }
 
 p {
   font-weight: 300;
@@ -21,14 +22,8 @@ h2 {
   color: #F5F5F5;
   margin-top: 5vh; }
 
-.red-marker {
-  color: #FF0000; }
-
 h1 {
   font-size: 120px;
   font-weight: 800; }
-
-.branding {
-  color: #FF0000; }
 
 /*# sourceMappingURL=overrides.css.map */
