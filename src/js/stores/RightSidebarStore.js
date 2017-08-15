@@ -24,6 +24,12 @@ export default [
     target: '_blank'
   },
   {
+    title: 'Youtube',
+    href:'https://youtube.com',
+    icon: 'socicon-youtube socicons',
+    target: '_self'
+  },
+  {
     title: 'GitHub',
     href: 'https://github.com/wladek96',
     icon: 'socicon-github socicons',

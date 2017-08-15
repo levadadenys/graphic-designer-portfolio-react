@@ -26,4 +26,8 @@ h1 {
   font-size: 120px;
   font-weight: 800; }
 
+.modal-backdrop {
+  background-color: #180026;
+  background-color: rgba(24, 0, 38, 0.7); }
+
 /*# sourceMappingURL=overrides.css.map */
