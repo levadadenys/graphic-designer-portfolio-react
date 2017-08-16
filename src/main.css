@@ -3,6 +3,7 @@
 @import url(./styles/sidebars.css);
 @import url(./styles/components/menu.css);
 @import url(./styles/pages/AboutPage.css);
+@import url(./styles/pages/Contacts.css);
 ::-webkit-scrollbar {
   display: none; }
 
