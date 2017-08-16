@@ -27,7 +27,7 @@ export default [
     title: 'Youtube',
     href:'https://youtube.com',
     icon: 'socicon-youtube socicons',
-    target: '_self'
+    target: '_blank'
   },
   {
     title: 'GitHub',
